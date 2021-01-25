@@ -18,6 +18,21 @@ const quizes = [
         a:"Higher Transformative Machine Language",
         b:"HyperText Markup Language",
         c:"Javascript Notation",
-        d:
+        d:"none of the above",
+        correct:"a"
+    },{
+        quiz:"Who is the first African-American President of USA?",
+        a:"Donald J Trump",
+        b:"Barrack H Obama",
+        c:"Joe Biden Jr",
+        d:"Martin Luther King",
+        correct:"b"
+    },{
+        quiz:"Which programming language is the most used as of 2020?",
+        a:"Python",
+        b:"JavaScript",
+        c:"Java",
+        d:"C",
+        correct:"JavaScript"
     }
 ]
