@@ -32,3 +32,13 @@ $ code . / atom .
 And  the project is on your local machine
 For vscode click on live server or right click then choose open server among the options on the menu that appears, which will open the project on the  browser 
 
+## Technologies
+* HTML5
+* CSS3
+* JavaScript
+  
+ ## Contact
+For any enquiries relating to the project feel free to contact ingasiathomas@gmail.com
+## License and Copyright
+Licensed under [MIT License](license)
+
