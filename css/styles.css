@@ -34,6 +34,9 @@ ul{
     list-style: none;
     padding: 0;
 }
+ul li label{
+    cursor: pointer;
+}
 button{
     background-color: #4895ef;
     border: none;
