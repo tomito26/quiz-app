@@ -9,9 +9,26 @@ This an application that contains questions and multiple choice answers and the 
 * Th last diplay will be scores and the card will have a button which when clicked refreshes the page and user can begin again
   
   ## Project SetUp
-  The application is accessible on github which you can either clone the application or download it then unzip it.
-  To clone the project you need to copy the repository by clicking on this green button on github 
-  ![repo](repo.jpg)
+The application is accessible on github which you can either clone the application or download it then unzip it.
+To clone the project you need to copy the repository by clicking on this green button on github 
+
+![repo](repo.jpg)
   Which  will display the repository link
 
+![repolink](repolinks.jpg)
+
+You the copy the above repositiry link and paste it on your terminal as shown below
+ ```
+ $ git clone <repository link>
+ ```
+Then you go to the project folder  of the project you just cloned
+ ```
+$ cd <project-directory>
+ ```
+Then you use command for  opening the project on your IDE
+ ```
+$ code . / atom .
+ ```
+And  the project is on your local machine
+For vscode click on live server or right click then choose open server among the options on the menu that appears, which will open the project on the  browser 
 
