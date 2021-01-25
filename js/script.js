@@ -24,12 +24,12 @@ const quizData = [
     correct: "b",
   },
   {
-    quiz: "Who is the first African-American President of USA?",
-    a: "Donald J Trump",
-    b: "Barrack H Obama",
-    c: "Joe Biden Jr",
-    d: "Martin Luther King",
-    correct: "b",
+    quiz: "The answers below shows different technologies and the organisations which created them.Which of the answers is false?",
+    a: "Python - FaceBook",
+    b: "Bootstrap - Twitter",
+    c: "Angular - Google",
+    d: "TypeScript - Microsoft",
+    correct: "a",
   },
   {
     quiz: "Which programming language is the most used as of 2020?",
@@ -97,7 +97,9 @@ submitBtn.addEventListener("click", () => {
     if (currentQuiz < quizData.length) {
       loadQuiz();
     } else {
-        quizContainer.innerHTML = `<h2 style="padding: 1rem;text-align:center;">You have answered correctly ${score}/${quizData.length} questions</h2>`
+        quizContainer.innerHTML = `<h2 style="padding: 1rem;text-align:center;">You have answered correctly ${score}/${quizData.length} questions</h2>
+        <button onClick="location.reload()">Reload</button>
+        `
     }
   }
 
