@@ -24,7 +24,7 @@ const quizData = [
     correct: "b",
   },
   {
-    quiz: "The answers below shows different technologies and the organisations which created them.Which of the answers is false?",
+    quiz: "The answers below shows different technologies and the organisations that created them.Which of the answers is false?",
     a: "Python - FaceBook",
     b: "Bootstrap - Twitter",
     c: "Angular - Google",
